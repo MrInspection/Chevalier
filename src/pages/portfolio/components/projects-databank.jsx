@@ -1,5 +1,5 @@
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs.jsx";
-import {JavaProjects} from "@/pages/portfolio/projects/java-projects.jsx";
+import {AllProjects} from "@/pages/portfolio/projects/all-projects.jsx";
 import {EmptyProjects} from "@/pages/portfolio/components/empty-projects.jsx";
 
 export function ProjectsDatabank() {
@@ -21,7 +21,7 @@ export function ProjectsDatabank() {
 
                         </div>
 
-                        <TabsContent value="preview-1"> <EmptyProjects/> </TabsContent>
+                        <TabsContent value="preview-1"> <AllProjects/> </TabsContent>
                         <TabsContent value="preview-2"> <EmptyProjects/> </TabsContent>
                         <TabsContent value="preview-3"> <EmptyProjects/> </TabsContent>
                         <TabsContent value="preview-4"> <EmptyProjects/> </TabsContent>

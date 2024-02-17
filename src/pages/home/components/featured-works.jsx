@@ -44,7 +44,7 @@ export function FeaturedWorks() {
                                             des questionnements profonds et des enjeux éthiques majeurs.
                                         </p>
                                     </div>
-                                    <img src={"src/assets/imgs/tech-watch.png"} alt={"Tech Watch Thumbnail"}
+                                    <img src={"/thumbnails/tech-watch.png"} alt={"Tech Watch Thumbnail"}
                                          className={"rounded-md object-cover max-h-72 w-56 sm:w-auto"}>
                                     </img>
                                 </div>
@@ -56,7 +56,7 @@ export function FeaturedWorks() {
 
                         <Card>
                             <CardHeader className={"my-0"}>
-                                <img src={"src/assets/imgs/Black.jpg"} alt={"Placeholder"}
+                                <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                      className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                 </img>
                             </CardHeader>
@@ -73,7 +73,7 @@ export function FeaturedWorks() {
 
                         <Card>
                             <CardHeader className={"my-0"}>
-                                <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                      className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                 </img>
                             </CardHeader>
@@ -90,7 +90,7 @@ export function FeaturedWorks() {
                         </Card>
                         <Card>
                             <CardHeader className={"my-0"}>
-                                <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                      className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                 </img>
                             </CardHeader>

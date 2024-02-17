@@ -20,7 +20,7 @@ export function IntroSection() {
                     <div className="md:flex items-center justify-between space-x-4">
                         <div className="md:flex items-center space-x-8">
                             <Avatar className={"size-72"}>
-                                <AvatarImage src="src/assets/imgs/Inquisitive_avatar_1.png"/>
+                                <AvatarImage src="/images/inquisitive-avatar-2.png"/>
                                 <AvatarFallback className={"text-6xl"}>MAH</AvatarFallback>
                             </Avatar>
                             <div className={"md:flex-1"}>

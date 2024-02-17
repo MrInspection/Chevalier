@@ -17,7 +17,7 @@ export default function PinnedContents() {
                                     Lorem ipsum dolor sit amet consectetur
                                 </h4>
                                 <div className={"pt-0.5"}>
-                                    <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                    <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                          className={"rounded-md object-cover  w-full h-full"}>
                                     </img>
                                 </div>
@@ -33,7 +33,7 @@ export default function PinnedContents() {
                                     Lorem ipsum dolor sit amet consectetur
                                 </h4>
                                 <div className={"pt-0.5"}>
-                                    <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                    <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                          className={"rounded-md object-cover  w-full h-full"}>
                                     </img>
                                 </div>
@@ -49,7 +49,7 @@ export default function PinnedContents() {
                                     Lorem ipsum dolor sit amet consectetur
                                 </h4>
                                 <div className={"pt-0.5"}>
-                                    <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                    <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                          className={"rounded-md object-cover  w-full h-full"}>
                                     </img>
                                 </div>
@@ -65,7 +65,7 @@ export default function PinnedContents() {
                                     Lorem ipsum dolor sit amet consectetur
                                 </h4>
                                 <div className={"pt-0.5"}>
-                                    <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                                    <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                          className={"rounded-md object-cover  w-full h-full"}>
                                     </img>
                                 </div>

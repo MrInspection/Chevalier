@@ -11,7 +11,7 @@ function AboutMe() {
                     <div className="md:flex items-center justify-between space-x-4">
                         <div className="md:flex items-center space-x-8">
                             <Avatar className={"size-72"}>
-                                <AvatarImage src="src/assets/imgs/Inquisitive_avatar_1.png"/>
+                                <AvatarImage src="/images/inquisitive-avatar-2.png"/>
                                 <AvatarFallback className={"text-6xl"}>MAH</AvatarFallback>
                             </Avatar>
                             <div className={"md:flex-1"}>
@@ -34,7 +34,7 @@ function AboutMe() {
                                         </TooltipContent>
                                     </Tooltip>
                                 </TooltipProvider>
-                                <a href={"src/assets/docs/curriculum-vitae.pdf"}>
+                                <a href={"/documents/curriculum-vitae.pdf"}>
                                     <div className={"flex space-x-2 py-5"}>
                                         <Button> <FileTextIcon className="mr-2 h-4 w-4"/> Téléchager mon CV </Button>
                                     </div>

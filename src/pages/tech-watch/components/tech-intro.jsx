@@ -26,7 +26,7 @@ export function TechIntro() {
 
                             </div>
                         </div>
-                        <img src={"src/assets/imgs/tech-watch.png"} alt={"Tech Watch Thumbnail"}
+                        <img src={"/thumbnails/tech-watch.png"} alt={"Tech Watch Thumbnail"}
                              className={"rounded-md object-cover max-h-72 w-56 sm:w-auto"}>
                         </img>
 

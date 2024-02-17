@@ -1,15 +1,14 @@
 import {Card, CardContent, CardDescription, CardHeader} from "@/components/ui/card.jsx";
 import {Badge} from "@/components/ui/badge.jsx";
-import {HoverCardContent} from "@/components/ui/hover-card.jsx";
 
-export function JavaProjects() {
+export function AllProjects() {
     return (
         <>
             <div className={"justify-center rounded-md border-dashed"}>
                 <div className={"my-3 grid gap-4 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3"}>
                     <Card>
                         <CardHeader className={"my-0"}>
-                            <img src={"src/assets/imgs/Black.jpg"} alt={"Placeholder"}
+                            <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                  className={"rounded-md object-cover aspect-video h-52  w-full "}>
                             </img>
                         </CardHeader>
@@ -26,7 +25,7 @@ export function JavaProjects() {
                     </Card>
                     <Card>
                         <CardHeader className={"my-0"}>
-                            <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                            <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                  className={"rounded-md object-cover aspect-video h-52  w-full "}>
                             </img>
                         </CardHeader>
@@ -42,7 +41,7 @@ export function JavaProjects() {
                     </Card>
                     <Card>
                         <CardHeader className={"my-0"}>
-                            <img src={"src/assets/imgs/Placeholder.png"} alt={"Placeholder"}
+                            <img src={"/images/placeholder.png"} alt={"Placeholder"}
                                  className={"rounded-md object-cover aspect-video h-52  w-full "}>
                             </img>
                         </CardHeader>

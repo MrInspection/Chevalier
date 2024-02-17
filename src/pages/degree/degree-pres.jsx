@@ -2,7 +2,7 @@ export function DegreePresentation() {
     return (
         <>
             <div className={"container relative mx-auto max-w-5xl mt-16"}>
-                <img src={"src/assets/imgs/Inquisitive-banner.png"}>
+                <img src={"/banners/inquisitive-banner.png"}>
                 </img>
             </div>
             <div className={"container relative mx-auto max-w-3xl mb-20"}>

@@ -32,7 +32,7 @@ function HeroSection() {
                                         </Button>
                                     </div>
                                 </div>
-                                <img src={"src/assets/imgs/behind-the-scenes.png"} alt={"Placeholder"}
+                                <img src={"/thumbnails/bts-chevalier.png"} alt={"Placeholder"}
                                      className={"rounded-md object-cover max-h-96 w-full sm:w-auto"}>
                                 </img>
                             </div>
