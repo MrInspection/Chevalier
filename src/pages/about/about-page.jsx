@@ -10,7 +10,6 @@ export default function AboutPage() {
     return (
         <>
             <SiteHeader />
-            <Broadcast />
             <AboutMe />
             <PersonalStats />
             <EduSection />

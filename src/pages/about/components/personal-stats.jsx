@@ -4,6 +4,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card.jsx"
+import {statsConfig} from "@/config/statsConfig.js";
 
 function PersonalStats() {
     return (
@@ -28,9 +29,9 @@ function PersonalStats() {
                             </svg>
                         </CardHeader>
                         <CardContent>
-                            <div className="text-2xl font-bold">+ N/A</div>
+                            <div className="text-2xl font-bold">+{statsConfig.completed_projects.amount}</div>
                             <p className="text-xs text-muted-foreground">
-                                +N/A lorem ipsum
+                                {statsConfig.completed_projects.description}
                             </p>
                         </CardContent>
                     </Card>
@@ -47,9 +48,9 @@ function PersonalStats() {
                             </svg>
                         </CardHeader>
                         <CardContent>
-                            <div className="text-2xl font-bold">+ 1,000</div>
+                            <div className="text-2xl font-bold">+{statsConfig.line_of_codes.amount}</div>
                             <p className="text-xs text-muted-foreground">
-                                +N/A lorem ipsum
+                                {statsConfig.line_of_codes.description}
                             </p>
                         </CardContent>
                     </Card>
@@ -72,9 +73,9 @@ function PersonalStats() {
                             </svg>
                         </CardHeader>
                         <CardContent>
-                            <div className="text-2xl font-bold">+ N/A</div>
+                            <div className="text-2xl font-bold">+{statsConfig.brainstorming_sessions.amount}</div>
                             <p className="text-xs text-muted-foreground">
-                            +N/A lorem ipsum
+                                {statsConfig.brainstorming_sessions.description}
                             </p>
                         </CardContent>
                     </Card>
@@ -99,9 +100,9 @@ function PersonalStats() {
                             </svg>
                         </CardHeader>
                         <CardContent>
-                            <div className="text-2xl font-bold">+5</div>
+                            <div className="text-2xl font-bold">+{statsConfig.feedback_collected.amount}</div>
                             <p className="text-xs text-muted-foreground">
-                                +2 Feedbacks since last month
+                                {statsConfig.feedback_collected.description}
                             </p>
                         </CardContent>
                     </Card>

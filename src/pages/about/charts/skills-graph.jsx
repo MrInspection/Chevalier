@@ -6,7 +6,7 @@ function SkillsChart() {
     const data = [
         {
             language: "Java",
-            progression: 40,
+            progression: 32,
             limit: 100
         },
         {
@@ -16,12 +16,12 @@ function SkillsChart() {
         },
         {
             language: "PHP",
-            progression: 50,
+            progression: 37,
             limit: 100
         },
         {
             language: "React",
-            progression: 55,
+            progression: 35,
             limit: 100
         },
         {

@@ -1,7 +1,17 @@
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar.jsx";
 import {Button} from "@/components/ui/button.jsx";
-import {FileTextIcon} from "@radix-ui/react-icons";
+import {CopyIcon, EnvelopeOpenIcon, FileTextIcon, PersonIcon} from "@radix-ui/react-icons";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip.jsx";
+import {
+    Dialog,
+    DialogClose,
+    DialogContent, DialogDescription,
+    DialogFooter,
+    DialogHeader, DialogTitle,
+    DialogTrigger
+} from "@/components/ui/dialog.jsx";
+import {Input} from "@/components/ui/input.jsx";
+import {Label} from "@/components/ui/label.jsx";
 
 function AboutMe() {
     return (
@@ -34,11 +44,72 @@ function AboutMe() {
                                         </TooltipContent>
                                     </Tooltip>
                                 </TooltipProvider>
-                                <a href={"/documents/curriculum-vitae.pdf"}>
-                                    <div className={"flex space-x-2 py-5"}>
-                                        <Button> <FileTextIcon className="mr-2 h-4 w-4"/> Téléchager mon CV </Button>
+
+                                <div className={"flex space-x-2 py-5"}>
+                                    <a href={"/documents/curriculum-vitae.pdf"}>
+                                        <Button variant={"outline"}>
+                                            <FileTextIcon className="mr-2 h-4 w-4"/> Voir mon CV
+                                        </Button>
+                                    </a>
+
+                                    <div>
+                                        <Dialog>
+                                            <DialogTrigger asChild>
+                                                <Button variant={"outline"}>
+                                                    <PersonIcon className="mr-2 h-4 w-4"/>
+                                                    Me contacter
+                                                </Button>
+                                            </DialogTrigger>
+                                            <DialogContent className="sm:max-w-md">
+                                                <DialogHeader>
+                                                    <DialogTitle>Mes Coordonnées</DialogTitle>
+                                                    <DialogDescription>
+                                                        Consulter mes coordonnées pour pouvoir me contacter
+                                                    </DialogDescription>
+                                                </DialogHeader>
+                                                <div className="flex items-center space-x-2">
+                                                    <div className="grid flex-1 gap-2">
+                                                        <Label htmlFor="link" className="sr-only">
+                                                            Link
+                                                        </Label>
+                                                        <Input
+                                                            id="link"
+                                                            defaultValue="moussaabdallahhoumadi@gmail.com"
+                                                            readOnly
+                                                        />
+                                                    </div>
+                                                    <a href={"mailto:moussaabdallahhoumadi@gmail.com"}>
+                                                        <Button type="submit" size="sm" className="px-3">
+                                                            <span className="sr-only">Copy</span>
+                                                            <EnvelopeOpenIcon className="h-4 w-4"/>
+                                                        </Button>
+                                                    </a>
+                                                </div>
+                                                <div className="grid gap-2 grid-cols-3 -my-1">
+                                                    <div className={"col-span-2"}>
+                                                        <Label htmlFor="address" className="sr-only"> Adresse
+                                                        </Label>
+                                                        <Input
+                                                            id="address"
+                                                            defaultValue="50 Rue du Bas Liévin, 59000 Lille"
+                                                            readOnly
+                                                        />
+                                                    </div>
+                                                    <Label htmlFor="phone" className="sr-only"> Numéro de téléphone
+                                                    </Label>
+                                                    <Input
+                                                        id="phone"
+                                                        defaultValue="0744619400"
+                                                        readOnly
+                                                    />
+                                                </div>
+                                                <DialogFooter className="sm:justify-start" />
+                                            </DialogContent>
+                                        </Dialog>
                                     </div>
-                                </a>
+
+
+                                </div>
 
 
                             </div>

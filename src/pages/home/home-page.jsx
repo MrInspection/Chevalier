@@ -1,4 +1,3 @@
-import HeroSection from "@/pages/home/components/hero-section.jsx";
 import PersonalStats from "@/pages/about/components/personal-stats.jsx";
 import SiteHeader from "@/components/site-header.jsx";
 import SiteFooter from "@/components/site-footer.jsx";
@@ -11,7 +10,6 @@ export default function HomePage() {
         <>
             <SiteHeader />
             <Broadcast />
-            <HeroSection />
             <IntroSection />
             <PersonalStats />
             <FeaturedWorks />

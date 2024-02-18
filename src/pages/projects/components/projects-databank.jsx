@@ -1,6 +1,6 @@
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs.jsx";
-import {AllProjects} from "@/pages/portfolio/projects/all-projects.jsx";
-import {EmptyProjects} from "@/pages/portfolio/components/empty-projects.jsx";
+import {AllProjects} from "@/pages/projects/components/filters/all-projects.jsx";
+import {EmptyProjects} from "@/pages/projects/components/empty-projects.jsx";
 
 export function ProjectsDatabank() {
     return (

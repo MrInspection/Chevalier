@@ -60,8 +60,8 @@ export function MobileNav() {
                         <Link to={"/degree"}>
                             <span className={"transition-colors hover:text-foreground/80 font-medium"}>Formation</span>
                         </Link>
-                        <Link to={"/portfolio"}>
-                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Portfolio</span>
+                        <Link to={"/projects"}>
+                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Projets</span>
                         </Link>
                         <Link to={"/tech-watch"}>
                             <span className={"transition-colors hover:text-foreground/80 font-medium"}>Veille technologique</span>

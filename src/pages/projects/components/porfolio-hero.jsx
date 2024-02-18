@@ -1,4 +1,4 @@
-import {ProjectsDatabank} from "@/pages/portfolio/components/projects-databank.jsx";
+import {ProjectsDatabank} from "@/pages/projects/components/projects-databank.jsx";
 
 export function PorfolioHero () {
     return (

@@ -11,7 +11,7 @@ export default function SkillsSection() {
                     <div className={"md:flex space-x-3 items-center justify-between"}>
                         <div className={"md:pe-10"}>
                             <h1 className={"scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-3xl "}>
-                                Mes compétences
+                                Mes Compétences
                             </h1>
                             <p className="leading-7 [&:not(:first-child)]:mt-6 text-justify">
                                 Au cours de mon parcours, j{"'"}ai eu l{"'"}occasion d{"'"}acquérir un éventail
