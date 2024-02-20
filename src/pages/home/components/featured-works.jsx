@@ -91,7 +91,7 @@ export function FeaturedWorks() {
                                     ProjectUltron AyCalculator
                                 </h1>
                                 <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge className={"bg-[#000091] hover:bg-[#000091]"}>Mise en avant</Badge>
+                                    <Badge>Mise en avant</Badge>
                                     <Badge variant={"secondary"}>JavaFX</Badge>
                                 </CardDescription>
                             </CardContent>

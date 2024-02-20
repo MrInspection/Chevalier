@@ -1,7 +1,7 @@
 export const statsConfig = {
     completed_projects: {
-        amount: 15,
-        description: "+ 5 filters since last month",
+        amount: "N/A",
+        description: "+ N/A projects since last month",
     },
     line_of_codes: {
         amount: 500,
