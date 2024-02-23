@@ -1,38 +1,66 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import {Button} from "@/components/ui/button.jsx";
 import {TechIntro} from "@/pages/tech-watch/components/tech-intro.jsx";
-import {TechDatabank} from "@/pages/tech-watch/components/tech-databank.jsx";
 
 export function TechHero() {
     return (
         <>
-            <div className={"container relative mx-auto max-w-6xl items-center my-6 mb-32"}>
-                <div className={"flex flex-col justify-center items-center w-full h-full py-2 md:py-10"}>
-                    <section className="max-w-[980px] flex-col items-center
-                     justify-items-center gap-6 pb-8 pt-8 md:py-10">
-                        <div className="flex flex-col items-center justify-items-center gap-2">
-                            <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl my-2 text-center">
-                                Veille Technologique<br className="hidden sm:inline"/>
-                            </h1>
-                            <p className="sm:max-w-[700px] md:max-w-4xl text-lg text-muted-foreground text-center">
-                                Dans un monde où les progrès technologiques sont rapides et constants, la veille
-                                technologique se révèle être une démarche proactive d{"'"}une importance capitale.
-                                Elle englobe une surveillance méticuleuse des avancées, des tendances et des
-                                innovations dans le domaine technologique. Cette approche stratégique dépasse
-                                la simple observation pour embrasser une anticipation des changements à venir,
-                                une connaissance approfondie des dernières découvertes et une capacité à saisir
-                                les opportunités émergentes. En adoptant une attitude vigilante et proactive, les
-                                organisations se positionnent favorablement pour rester compétitives dans un
-                                paysage technologique en perpétuelle évolution.
-                            </p>
-                        </div>
-                        <TechDatabank />
+            <HeroSection />
+            <HeroMenu />
+        </>
+    )
+}
 
-                    </section>
-
-                    <div className={"max-w-4xl my-3"}>
-                        <TechIntro />
+function HeroSection() {
+    return(
+        <>
+            <div className={"bg-[#fee7fc] h-full justify-center"}>
+                <div className={"container relative mx-auto max-w-6xl mb-10"}>
+                    <div className={"py-12"}>
+                        <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight md:text-4xl lg:text-4xl text-[#6E445A]">
+                            Department of Research
+                        </h1>
+                        <p className="leading-7 [&:not(:first-child)]:mt-2 text-[#6E445A]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
                     </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function HeroMenu() {
+    return (
+        <>
+
+            <div className={"mt-16"}>
+                <div className={"container relative mx-auto max-w-6xl mb-32"}>
 
 
+
+
+
+                    <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight md:text-2xl lg:text-2xl ">
+                        Lorem ipsum dolor sit amet
+                    </h1>
+                    <p className="leading-7 [&:not(:first-child)]:mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare suspendisse
+                        sed nisi. Magna sit amet purus gravida quis blandit turpis cursus. Ac auctor augue mauris
+                        augue neque gravida in fermentum et. Sed arcu non odio euismod. Mattis rhoncus urna neque
+                        viverra justo. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Massa
+                        tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Orci porta non pulvinar
+                        neque laoreet suspendisse interdum consectetur. Laoreet suspendisse interdum consectetur
+                        libero id faucibus. Maecenas sed enim ut sem viverra aliquet eget sit. Non blandit massa
+                        enim nec dui nunc. Nibh venenatis cras sed felis eget velit aliquet sagittis id.
+                    </p>
+                    <div className={"mt-5"}>
+                        <div className={"flex space-2"}>
+                            <Button variant={"outline"}>Lorem ipsum</Button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

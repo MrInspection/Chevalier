@@ -38,7 +38,7 @@ export function FeaturedWorks() {
                             <CardHeader>
                                 <div className={"lg:flex items-center justify-between space-x-5 md:px-8 sm:px-4"}>
                                     <div className={"sm:my-8"}>
-                                        <Badge className={"bg-[#000091] hover:bg-[#000091]"}>Veille Technologique</Badge>
+                                        <Badge>Veille Technologique</Badge>
                                         <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl mt-2">
                                             ChatGPT : PLONGÉE AU CŒUR DE <br className="hidden sm:inline"/>L{"'"}IA,
                                             ENTRE SECRETS ET DÉFIS
@@ -73,7 +73,7 @@ export function FeaturedWorks() {
                                         ProjectUltron Chevālier
                                     </h1>
                                     <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                        <Badge className={"bg-[#000091] hover:bg-[#000091]"}>Mise en avant</Badge>
+                                        <Badge>Mise en avant</Badge>
                                         <Badge variant={"secondary"}>React JS</Badge>
                                     </CardDescription>
                                 </CardContent>
@@ -107,7 +107,7 @@ export function FeaturedWorks() {
                                     ProjectUltron AyTetris
                                 </h1>
                                 <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge className={"bg-[#000091] hover:bg-[#000091]"}>Mise en avant</Badge>
+                                    <Badge>Mise en avant</Badge>
                                     <Badge variant={"secondary"}>Python</Badge>
                                 </CardDescription>
                             </CardContent>

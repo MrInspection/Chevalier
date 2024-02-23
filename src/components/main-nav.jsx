@@ -24,7 +24,7 @@ export function MainNav() {
                 </Link>
 
                 <Link to={"/tech-watch"}>
-                    <span className={"transition-colors hover:text-foreground/80 font-medium"}>Veille technologique</span>
+                        <span className={"transition-colors hover:text-foreground/80 font-medium"}>Research</span>
                 </Link>
 
                 <Link to={"/databank"}>

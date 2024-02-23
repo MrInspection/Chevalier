@@ -129,7 +129,7 @@ function ArticleSection() {
                 </div>
             </div>
         </div>
-</>
-)
+        </>
+    )
 }
 

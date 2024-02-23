@@ -1,7 +1,7 @@
 import {Card, CardContent, CardDescription, CardHeader} from "@/components/ui/card.jsx";
 import {Badge} from "@/components/ui/badge.jsx";
 
-export function AllProjects() {
+export function FilterEverything() {
     return (
         <>
             <div className={"justify-center rounded-md border-dashed"}>
@@ -18,7 +18,7 @@ export function AllProjects() {
                                 ProjectUltron Chevālier
                             </h1>
                             <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                <Badge className={"bg-[#000091] hover:bg-[#000091]"}>Mise en avant</Badge>
+                                <Badge>Mise en avant</Badge>
                                 <Badge variant={"secondary"}>ReactJS</Badge>
                             </CardDescription>
                         </CardContent>
