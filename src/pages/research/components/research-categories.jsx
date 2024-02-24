@@ -1,5 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import {EmptyStatistics, EmptyStudies, EmptyTechWatch} from "@/pages/research/components/empty-database.jsx";
+import {TechResearch} from "@/pages/research/data/tech-articles/tech-research.jsx";
 
 export function ResearchCategories() {
     return (
@@ -14,7 +15,7 @@ export function ResearchCategories() {
                                 <TabsTrigger value="statistics">Statistiques</TabsTrigger>
                             </TabsList>
                             <TabsContent value="cases"><EmptyStudies/> </TabsContent>
-                            <TabsContent value="tech"> <EmptyTechWatch/> </TabsContent>
+                            <TabsContent value="tech"> <TechResearch /> </TabsContent>
                             <TabsContent value="statistics"><EmptyStatistics/> </TabsContent>
                         </Tabs>
                     </div>

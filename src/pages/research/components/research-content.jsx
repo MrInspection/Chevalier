@@ -7,7 +7,7 @@ export function ResearchHero() {
                 <div className={"container relative mx-auto max-w-6xl mb-10"}>
                     <div className={"py-8"}>
                         <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight md:text-4xl lg:text-2xl text-[#6E445A]">
-                            ProjectUltron : Bureau de recherches et d{"'"}études statistiques (BRES)
+                            ProjectUltron - Bureau de recherches et d{"'"}études statistiques (BRES)
                         </h1>
                     </div>
                 </div>

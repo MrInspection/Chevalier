@@ -1,7 +1,7 @@
 {
-  "name": "projectultron",
+  "name": "chevalier",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.6.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
