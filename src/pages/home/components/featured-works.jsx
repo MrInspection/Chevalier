@@ -21,11 +21,11 @@ export function FeaturedWorks() {
                                     de programmation ainsi que ma veille technologique actuelle.
                                 </p>
                                 <p className={"flex space-x-2 py-2 mb-8 sm:mb-2 md:mb-2 lg:mb-0"}>
-                                    <Link to={"/filters"}>
-                                        <Button variant={"outline"}>Tous mes projets</Button>
+                                    <Link to={"/projects"}>
+                                        <Button variant={"outline"}>Mes projets</Button>
                                     </Link>
-                                    <Link to={"/databank"}>
-                                        <Button variant={"outline"}>Banque de données</Button>
+                                    <Link to={"/research"}>
+                                        <Button variant={"outline"}>Mes recherches</Button>
                                     </Link>
                                 </p>
                             </div>
@@ -33,12 +33,12 @@ export function FeaturedWorks() {
                     </div>
 
                 <div className={"flex-1 pb-5 -mt-8"}>
-                    <Link to={"/tech-watch"}>
+                    <Link to={"/research"}>
                         <Card className={""}>
                             <CardHeader>
                                 <div className={"lg:flex items-center justify-between space-x-5 md:px-8 sm:px-4"}>
                                     <div className={"sm:my-8"}>
-                                        <Badge>Veille Technologique</Badge>
+                                        <Badge>Recherche, Veille Technologique</Badge>
                                         <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl mt-2">
                                             ChatGPT : PLONGÉE AU CŒUR DE <br className="hidden sm:inline"/>L{"'"}IA,
                                             ENTRE SECRETS ET DÉFIS
@@ -51,7 +51,7 @@ export function FeaturedWorks() {
                                             className="hidden sm:inline"/> majeurs.
                                         </p>
                                     </div>
-                                    <img src={"/thumbnails/tech-watch.png"} alt={"Tech Watch Thumbnail"}
+                                    <img src={"/thumbnails/research-tech-watch.png"} alt={"Logo ChatGPT"}
                                          className={"rounded-md object-cover max-h-72 w-56 sm:w-auto"}>
                                     </img>
                                 </div>
@@ -70,10 +70,10 @@ export function FeaturedWorks() {
                                 </CardHeader>
                                 <CardContent>
                                     <h1 className={"scroll-m-20 font-extrabold text-xl -mt-3"}>
-                                        ProjectUltron Chevālier
+                                        Chevālier (Mon Portfolio)
                                     </h1>
                                     <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                        <Badge>Mise en avant</Badge>
+                                        <Badge>Étude de cas</Badge>
                                         <Badge variant={"secondary"}>React JS</Badge>
                                     </CardDescription>
                                 </CardContent>
@@ -91,7 +91,7 @@ export function FeaturedWorks() {
                                     ProjectUltron AyCalculator
                                 </h1>
                                 <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge>Mise en avant</Badge>
+                                    <Badge>Projet</Badge>
                                     <Badge variant={"secondary"}>JavaFX</Badge>
                                 </CardDescription>
                             </CardContent>
@@ -107,7 +107,7 @@ export function FeaturedWorks() {
                                     ProjectUltron AyTetris
                                 </h1>
                                 <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge>Mise en avant</Badge>
+                                    <Badge>Projet</Badge>
                                     <Badge variant={"secondary"}>Python</Badge>
                                 </CardDescription>
                             </CardContent>

@@ -58,8 +58,8 @@ function SkillsChart() {
                     <Radar
                         name="Mike"
                         dataKey="progression"
-                        stroke="#2F2F31"
-                        fill="#2F2F31"
+                        stroke="#FFFFFF"
+                        fill="#FFFFFF"
                         fillOpacity={0.6}
                     />
                 </RadarChart>

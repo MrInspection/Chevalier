@@ -23,12 +23,16 @@ export function MainNav() {
                     <span className={"transition-colors hover:text-foreground/80 font-medium"}>Projets</span>
                 </Link>
 
-                <Link to={"/tech-watch"}>
-                        <span className={"transition-colors hover:text-foreground/80 font-medium"}>Research</span>
+                <Link to={"/research"}>
+                        <span className={"transition-colors hover:text-foreground/80 font-medium"}>Mes recherches</span>
                 </Link>
 
-                <Link to={"/databank"}>
-                    <span className={"transition-colors hover:text-foreground/80 font-medium"}>Banque de données</span>
+                <Link to={"/resources"}>
+                    <span className={"transition-colors hover:text-foreground/80 font-medium"}>Ressources</span>
+                </Link>
+
+                <Link to={siteConfig.links.github}>
+                    <span className={"transition-colors hover:text-foreground/80 font-medium"}>GitHub</span>
                 </Link>
 
             </nav>

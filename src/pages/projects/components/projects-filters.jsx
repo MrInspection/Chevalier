@@ -63,3 +63,27 @@ export function FilterEverything() {
         </>
     )
 }
+
+export function FilterJavaProjects() {
+    return (
+        <>
+
+        </>
+    )
+}
+
+export function FilterWebProjects() {
+    return(
+        <>
+
+        </>
+    )
+}
+
+export function FilterMobileProjects() {
+    return (
+        <>
+
+        </>
+    )
+}

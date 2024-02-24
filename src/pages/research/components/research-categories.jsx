@@ -1,0 +1,25 @@
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import {EmptyStatistics, EmptyStudies, EmptyTechWatch} from "@/pages/research/components/empty-database.jsx";
+
+export function ResearchCategories() {
+    return (
+        <>
+            <div className={""}>
+                <div className={"container relative mx-auto max-w-6xl mb-32"}>
+                    <div className={"flex-1 mt-4 flex-col justify-center"}>
+                        <Tabs defaultValue="tech">
+                            <TabsList className={"mb-2"}>
+                                <TabsTrigger value="tech">Veille</TabsTrigger>
+                                <TabsTrigger value="cases">Études de cas</TabsTrigger>
+                                <TabsTrigger value="statistics">Statistiques</TabsTrigger>
+                            </TabsList>
+                            <TabsContent value="cases"><EmptyStudies/> </TabsContent>
+                            <TabsContent value="tech"> <EmptyTechWatch/> </TabsContent>
+                            <TabsContent value="statistics"><EmptyStatistics/> </TabsContent>
+                        </Tabs>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}

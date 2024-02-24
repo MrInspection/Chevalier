@@ -57,17 +57,25 @@ export function MobileNav() {
                         <Link to={"/about"}>
                             <span className={"transition-colors hover:text-foreground/80 font-medium"}>À propos</span>
                         </Link>
+
                         <Link to={"/degree"}>
                             <span className={"transition-colors hover:text-foreground/80 font-medium"}>Formation</span>
                         </Link>
+
                         <Link to={"/projects"}>
                             <span className={"transition-colors hover:text-foreground/80 font-medium"}>Projets</span>
                         </Link>
-                        <Link to={"/tech-watch"}>
-                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Veille technologique</span>
+
+                        <Link to={"/research"}>
+                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Mes recherches</span>
                         </Link>
-                        <Link to={"/databank"}>
-                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Banques de données</span>
+
+                        <Link to={"/resources"}>
+                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>Ressources</span>
+                        </Link>
+
+                        <Link to={siteConfig.links.github}>
+                            <span className={"transition-colors hover:text-foreground/80 font-medium"}>GitHub</span>
                         </Link>
                     </div>
                 </ScrollArea>

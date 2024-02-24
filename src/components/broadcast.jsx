@@ -9,7 +9,8 @@ export function Broadcast() {
                         <div
                             className={"inline-flex gap-1 items-center px-3 py-1 text-sm font-bold justify-items-center text-[#000091]"}>
                             <InfoCircledIcon className={"hidden md:visible"}/>
-                            Ce site web est actuellement en cours de développement, vous êtes actuellement en train de consulter la première version candidate du portfolio.
+                            Ce site web est actuellement en cours de développement. Vous êtes actuellement en
+                            train de visionner la version {"'Release Candidate 5'"} du site web.
                         </div>
                     </div>
                 </div>
