@@ -70,7 +70,11 @@ export function TechResearch() {
                                 </figcaption>
                             </p>
                         </div>
-                        <a href={"documents/tech/gpt-introduction.pdf"}>
+                        <a
+                            href={"documents/tech/gpt-introduction.pdf"}
+                            target={"_blank"}
+                            rel="noreferrer noopener"
+                        >
                             <Button className={"w-full mb-2"} size={"lg"} >
                                 <FileTextIcon className="mr-2 h-4 w-4" />
                                 Télécharger la présentation complète de la veille technologique

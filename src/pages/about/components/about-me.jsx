@@ -46,7 +46,11 @@ function AboutMe() {
                                 </TooltipProvider>
 
                                 <div className={"flex space-x-2 py-5"}>
-                                    <a href={"/documents/curriculum-vitae.pdf"}>
+                                    <a
+                                        href={"/documents/curriculum-vitae.pdf"}
+                                        target={"_blank"}
+                                        rel="noreferrer noopener"
+                                    >
                                         <Button variant={"outline"}>
                                             <FileTextIcon className="mr-2 h-4 w-4"/> Voir mon CV
                                         </Button>
