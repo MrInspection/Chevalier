@@ -1,8 +1,5 @@
-# React + Vite
+# ProjectUltron Chevālier
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet a été développé en utilisant React avec Vite, accompagné d'une bibliothèque de composants, d'une bibliothèque de graphiques et de TailwindCSS. Il s'agit d'un portfolio personnel conçu pour présenter mes compétences et mon savoir-faire en tant que développeur.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Built by MrInspection, check out the case study to learn more about this project.*
