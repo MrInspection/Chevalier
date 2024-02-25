@@ -6,7 +6,7 @@ export function ResearchHero() {
             <div className={"bg-[#fee7fc] h-full justify-center"}>
                 <div className={"container relative mx-auto max-w-6xl mb-10"}>
                     <div className={"py-8"}>
-                        <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight md:text-4xl lg:text-2xl text-[#6E445A]">
+                        <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight text-[#6E445A]">
                             Bureau de recherches et d{"'"}études statistiques de ProjectUltron
                         </h1>
                     </div>

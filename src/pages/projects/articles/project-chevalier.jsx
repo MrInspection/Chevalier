@@ -57,7 +57,7 @@ function ProjectArticleSection() {
                             target={"_blank"}
                             rel="noreferrer noopener"
                         >
-                            <Button variant={"outline"} className={"mt-6 w-full mb-8"}>
+                            <Button variant={"secondary"} className={"mt-6 w-full mb-8"}>
                                 <GitHubLogoIcon className="mr-2 h-4 w-4"/> Voir le projet sur GitHub
                             </Button>
                         </a>

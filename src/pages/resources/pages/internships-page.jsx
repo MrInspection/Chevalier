@@ -75,10 +75,10 @@ function PageContent() {
 
                         <div>
                             <div className={"grid gap-2 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2"}>
-                                <Button variant={"outline"} className={"w-full"}>
+                                <Button variant={"secondary"} className={"w-full"}>
                                     <FileTextIcon className="mr-2 h-4 w-4"/> Rapport de stage de première année
                                 </Button>
-                                <Button variant={"outline"} className={"w-full"}>
+                                <Button variant={"secondary"} className={"w-full"}>
                                     <FileTextIcon className="mr-2 h-4 w-4"/> Rapport de stage de deuxième année
                                 </Button>
                             </div>

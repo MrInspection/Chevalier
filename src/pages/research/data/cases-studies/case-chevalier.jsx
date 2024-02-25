@@ -24,7 +24,7 @@ function ResearchHero() {
                 <div className={"container relative mx-auto max-w-6xl mb-10"}>
                     <div className={"py-8"}>
                         <Link to={"/research"}>
-                            <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight md:text-4xl lg:text-2xl text-[#6E445A] hover:text-[#A558A0]">
+                            <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight text-[#6E445A] hover:text-[#A558A0]">
                                 Bureau de recherches et d{"'"}études statistiques de ProjectUltron
                             </h1>
                         </Link>
