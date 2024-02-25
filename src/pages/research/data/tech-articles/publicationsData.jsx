@@ -73,5 +73,14 @@ export const publications = [
         download: <EyeNoneIcon />,
         file: "/documents/tech/gpt-edition-8.pdf",
     },
+    {
+        id: "FEB-04",
+        title: "ChatGPT: Plongée au cœur de l'IA, entre secrets et défis éthiques",
+        edition: "Édition #9",
+        month: "Février 2024",
+        status: "Indisponible",
+        download: <EyeNoneIcon />,
+        file: "/documents/tech/gpt-edition-9.pdf",
+    },
 
 ];

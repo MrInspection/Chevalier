@@ -23,16 +23,16 @@ export function ResourcesDatabank() {
                             <CommandList className={"overflow-hidden"}>
                                 <CommandGroup heading="Featured Documents">
                                     <CommandItem>
-                                        <FileTextIcon className="mr-2 h-4 w-4" />
-                                        <span> Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
-                                    </CommandItem>
-                                    <CommandItem>
-                                        <FileTextIcon className="mr-2 h-4 w-4" />
-                                        <span>Lorem ipsum dolor sit amet consectetur elit</span>
+                                        <ArchiveIcon className="mr-2 h-4 w-4" />
+                                        <span> ProjectUltron - Dossier de l{"'"}épreuve E4 (4 documents)</span>
                                     </CommandItem>
                                     <CommandItem>
                                         <ArchiveIcon className="mr-2 h-4 w-4" />
-                                        <span>Lorem ipsum dolor sit amet consectetur adipiscing</span>
+                                        <span>ProjectUltron - Dossier de l{"'"}épreuve E5 (2 Documents)</span>
+                                    </CommandItem>
+                                    <CommandItem>
+                                        <FileTextIcon className="mr-2 h-4 w-4" />
+                                        <span>ProjectUltron - Support de présentation pour l{"'"}épreuve UF3</span>
                                     </CommandItem>
                                 </CommandGroup>
 

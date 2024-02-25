@@ -1,18 +1,18 @@
 export const statsConfig = {
     completed_projects: {
-        amount: "N/A",
-        description: "+ N/A projects since last month",
+        amount: 5,
+        description: "+ 1 projet depuis le 25 février",
     },
     line_of_codes: {
         amount: 500,
-        description: "+250 lines of code signce yesterday"
+        description: "+120 lignes de code depuis hier"
     },
     brainstorming_sessions: {
-        amount: 10,
-        description: "+1 Brainstorming session since friday"
+        amount: 5,
+        description: "+2 Brainstorming session since friday"
     },
     feedback_collected: {
-        amount: 5,
-        description: "+2 Feedbacks since last month"
+        amount: 3,
+        description: "+2 Feedbacks depuis le mois dernier"
     }
 }

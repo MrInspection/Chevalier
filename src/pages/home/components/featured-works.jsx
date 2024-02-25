@@ -51,7 +51,7 @@ export function FeaturedWorks() {
                                             className="hidden sm:inline"/> majeurs.
                                         </p>
                                     </div>
-                                    <img src={"/thumbnails/research-tech-watch.png"} alt={"Logo ChatGPT"}
+                                    <img src={"/thumbnails/chatgpt.png"} alt={"Logo ChatGPT"}
                                          className={"rounded-md object-cover max-h-72 w-56 sm:w-auto"}>
                                     </img>
                                 </div>
@@ -61,10 +61,10 @@ export function FeaturedWorks() {
 
                     <div className={"my-4 grid gap-4 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3"}>
 
-                        <Link to={"/projects/chevalier"}>
+                        <Link to={"/research/chevalier"}>
                             <Card>
                                 <CardHeader className={"my-0"}>
-                                    <img src={"/thumbnails/chevalier-project.png"} alt={"Portfolio Thumbnail Project"}
+                                    <img src={"/thumbnails/case-studies/case-studies-thumbnail.png"} alt={"Portfolio Thumbnail Project"}
                                          className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                     </img>
                                 </CardHeader>
@@ -74,44 +74,50 @@ export function FeaturedWorks() {
                                     </h1>
                                     <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
                                         <Badge>Étude de cas</Badge>
-                                        <Badge variant={"secondary"}>React JS</Badge>
+                                        <Badge variant={"secondary"}>Web Development</Badge>
                                     </CardDescription>
                                 </CardContent>
                             </Card>
                         </Link>
 
-                        <Card>
-                            <CardHeader className={"my-0"}>
-                                <img src={"/thumbnails/calculator-project.png"} alt={"Calculator Thumbnail Project"}
-                                     className={"rounded-md object-cover aspect-video h-52  w-full "}>
-                                </img>
-                            </CardHeader>
-                            <CardContent>
-                                <h1 className={"scroll-m-20 font-extrabold text-xl -mt-3"}>
-                                    ProjectUltron AyCalculator
-                                </h1>
-                                <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge>Projet</Badge>
-                                    <Badge variant={"secondary"}>JavaFX</Badge>
-                                </CardDescription>
-                            </CardContent>
-                        </Card>
-                        <Card>
-                            <CardHeader className={"my-0"}>
-                                <img src={"/thumbnails/tetris-project.png"} alt={"Tetris Thumbnail Project"}
-                                     className={"rounded-md object-cover aspect-video h-52  w-full "}>
-                                </img>
-                            </CardHeader>
-                            <CardContent>
-                                <h1 className={"scroll-m-20 font-extrabold text-xl -mt-3"}>
-                                    ProjectUltron AyTetris
-                                </h1>
-                                <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
-                                    <Badge>Projet</Badge>
-                                    <Badge variant={"secondary"}>Python</Badge>
-                                </CardDescription>
-                            </CardContent>
-                        </Card>
+                        <Link to={"/projects/calculator"}>
+                            <Card>
+                                <CardHeader className={"my-0"}>
+                                    <img src={"/thumbnails/projects/project-calculator.png"} alt={"Calculator Thumbnail Project"}
+                                         className={"rounded-md object-cover aspect-video h-52  w-full "}>
+                                    </img>
+                                </CardHeader>
+                                <CardContent>
+                                    <h1 className={"scroll-m-20 font-extrabold text-xl -mt-3"}>
+                                        ProjectUltron AyCalculator
+                                    </h1>
+                                    <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
+                                        <Badge>Projet</Badge>
+                                        <Badge variant={"secondary"}>Java Development</Badge>
+                                    </CardDescription>
+                                </CardContent>
+                            </Card>
+                        </Link>
+
+                        <Link to={"/projects/tetris"}>
+                            <Card>
+                                <CardHeader className={"my-0"}>
+                                    <img src={"/thumbnails/projects/project-tetris.png"} alt={"Tetris Thumbnail Project"}
+                                         className={"rounded-md object-cover aspect-video h-52  w-full "}>
+                                    </img>
+                                </CardHeader>
+                                <CardContent>
+                                    <h1 className={"scroll-m-20 font-extrabold text-xl -mt-3"}>
+                                        ProjectUltron AyTetris
+                                    </h1>
+                                    <CardDescription className={"my-1.5 font-medium flex space-x-1"}>
+                                        <Badge>Projet</Badge>
+                                        <Badge variant={"secondary"}>Python Development</Badge>
+                                    </CardDescription>
+                                </CardContent>
+                            </Card>
+                        </Link>
+
                     </div>
                 </div>
             </div>

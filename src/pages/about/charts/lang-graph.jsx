@@ -6,8 +6,6 @@ import {
     PolarAngleAxis,
     PolarRadiusAxis
 } from "recharts";
-import {Card, CardHeader} from "@/components/ui/card.jsx";
-import {HomeIcon} from "@radix-ui/react-icons";
 
 const data = [
     {
@@ -27,28 +25,27 @@ const data = [
 export default function LangChart() {
     return (
         <>
-
-
-                    <RadarChart
-                        cx={300}
-                        cy={250}
-                        outerRadius={100}
-                        width={500}
-                        height={500}
-                        data={data}
-                    >
-                        <PolarGrid/>
-                        <PolarAngleAxis dataKey="language"/>
-                        <PolarRadiusAxis domain={[0,100]}/>
-                        <Radar
-                            name="hello"
-                            dataKey="progression"
-                            stroke="#2F2F31"
-                            fill="#2F2F31"
-                            fillOpacity={0.6}
-                        />
-                    </RadarChart>
-
+            <div>
+                <RadarChart
+                    cx={150}
+                    cy={150}
+                    outerRadius={90}
+                    width={300}
+                    height={230}
+                    data={data}
+                >
+                    <PolarGrid/>
+                    <PolarAngleAxis dataKey="language"/>
+                    <PolarRadiusAxis domain={[0,100]}/>
+                    <Radar
+                        name="hello"
+                        dataKey="progression"
+                        stroke="#CE70CC"
+                        fill="#CE70CC"
+                        fillOpacity={0.55}
+                    />
+                </RadarChart>
+            </div>
         </>
     );
 }

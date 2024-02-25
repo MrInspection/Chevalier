@@ -96,8 +96,6 @@ export function TechResearch() {
                         </div>
                     </CardContent>
                 </Card>
-
-
             </div>
         </>
     )

@@ -12,11 +12,11 @@ export default function DegreePage() {
     )
 }
 
-export function PageArticle() {
+function PageArticle() {
     return (
         <>
             <div className={"container relative mx-auto max-w-6xl mt-16"}>
-                <img className={"bg-cover bg-center rounded-md"} src={"/banners/inquisitive-banner.png"}/>
+                <img className={"bg-cover bg-center rounded-md"} src={"/banners/blue-inquisitive-banner.png"}/>
             </div>
             <div className={"container relative mx-auto max-w-3xl mb-32"}>
                 <div className={"flex-1 mt-12"}>
@@ -27,7 +27,7 @@ export function PageArticle() {
                         <div className="flex h-5 items-center space-x-3 my-3">
                             <div className={"font-bold"}>Formation</div>
                             <Separator orientation="vertical"/>
-                            <div className={"text-sm font-semibold"}>Feb 24th, 2024</div>
+                            <div className={"text-sm font-semibold"}>Publié le 24 Février 2024</div>
                         </div>
 
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
