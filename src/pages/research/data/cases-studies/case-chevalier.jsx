@@ -5,6 +5,8 @@ import {Separator} from "@/components/ui/separator.jsx";
 import SiteHeader from "@/components/site-header.jsx";
 import SiteFooter from "@/components/site-footer.jsx";
 import {Link} from "react-router-dom";
+import {Button} from "@/components/ui/button.jsx";
+import {BookmarkFilledIcon, FileTextIcon, Link1Icon} from "@radix-ui/react-icons";
 
 export default function CaseChevalier() {
     return (
@@ -54,11 +56,18 @@ function ArticleSection() {
                         </div>
 
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
-                            J{"'"}ai travaillé ardemment et je suis ravi de vous présenter aujourd{"'"}hui
+                            {/* eslint-disable-next-line react/no-unescaped-entities */}
+                            J{"'"}ai travaillé d'arrache-pied et je suis ravi de vous présenter aujourd{"'"}hui
                             le projet <strong>Chevālier</strong>, qui représente mon portfolio. L{"'"}
                             objectif de cette <strong>étude de cas</strong> est de vous dévoiler les
                             coulisses de la réalisation de ce projet.
                         </p>
+
+                        <a href={"/projects/chevalier"}>
+                            <Button variant={"secondary"} className={"w-full mt-7 mb-4"}>
+                                <BookmarkFilledIcon className="mr-2 h-4 w-4"/> Consulter le projet Chevālier
+                            </Button>
+                        </a>
 
                         <h4 className="scroll-m-20 text-xl font-bold tracking-tight mt-7">
                             Répondre à un besoin
@@ -198,7 +207,7 @@ function ArticleSection() {
                                     actuellement, il le sera dans un avenir proche.</CardDescription>
                             </CardHeader>
                             <CardContent className="flex items-center justify-center">
-                                <LangChart />
+                                <LangChart/>
                             </CardContent>
                         </Card>
 
