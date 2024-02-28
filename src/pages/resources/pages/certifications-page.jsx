@@ -89,7 +89,6 @@ function PageContent () {
                                 ProjectUltron - Avengard Organization System
                             </figcaption>
                         </div>
-
                     </div>
                 </div>
             </div>
