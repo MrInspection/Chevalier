@@ -63,12 +63,6 @@ function ArticleSection() {
                             coulisses de la réalisation de ce projet.
                         </p>
 
-                        <a href={"/projects/chevalier"}>
-                            <Button variant={"secondary"} className={"w-full mt-7 mb-4"}>
-                                <BookmarkFilledIcon className="mr-2 h-4 w-4"/> Consulter le projet Chevālier
-                            </Button>
-                        </a>
-
                         <h4 className="scroll-m-20 text-xl font-bold tracking-tight mt-7">
                             Répondre à un besoin
                         </h4>
