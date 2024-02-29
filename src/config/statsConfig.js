@@ -5,11 +5,11 @@ export const statsConfig = {
     },
     line_of_codes: {
         amount: 500,
-        description: "+120 lignes de code depuis hier"
+        description: "+N/A Lorem ipsum dolor sit amet"
     },
     brainstorming_sessions: {
         amount: 5,
-        description: "+2 Brainstorming session since friday"
+        description: "+N/A Lorem ipsum dolor sit amet"
     },
     feedback_collected: {
         amount: 3,
