@@ -26,8 +26,8 @@ function ResearchHero() {
                 <div className={"container relative mx-auto max-w-6xl mb-10"}>
                     <div className={"py-8"}>
                         <Link to={"/research"}>
-                            <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight text-[#6E445A] hover:text-[#A558A0]">
-                                Bureau de recherches et d{"'"}études statistiques de ProjectUltron
+                            <h1 className="scroll-m-20 text-xl font-extrabold tracking-tight text-[#6E445A] hover:text-[#A558A0]">
+                                La recherche est une curiosité formalisée. C{"'"}est le fait de fouiller et d{"'"}enquêter dans un but précis.
                             </h1>
                         </Link>
                     </div>
