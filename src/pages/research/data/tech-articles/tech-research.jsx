@@ -48,7 +48,7 @@ export function TechResearch() {
                                 Dans quelle mesure l{"'"}évolution constante des modèles de langage
                                 et les enjeux éthiques découlant des biais de ChatGPT participent-ils
                                 activement à la redéfinition du panorama de l{"'"}intelligence
-                                artificielle textuelle ?
+                                artificielle ?
                             </blockquote>
                         </div>
                         <div className={"mb-14"}>
@@ -66,7 +66,7 @@ export function TechResearch() {
                             <p className="leading-7 [&:not(:first-child)]:my-6">
                                 <img className={"bg-cover bg-center rounded-md"} src={"/images/gpt-tools.jpg"}/>
                                 <figcaption className={"text-center text-muted-foreground my-1"}>
-                                    ProjectUltron BRES - Outils de Veille Technologique
+                                    Illustration #1 - Outils de veille technologique
                                 </figcaption>
                             </p>
                         </div>

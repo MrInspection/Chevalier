@@ -22,7 +22,7 @@ export default function SkillsSection() {
                                 nécessaire pour mon projet professionnel.
                             </p>
                             <div className={"space-x-2 py-5"}>
-                                <Button> <InfoCircledIcon className="mr-2 h-4 w-4"/>Tableau de mes compétences</Button>
+                                <Button> <InfoCircledIcon className="mr-2 h-4 w-4"/>Tableau de mes compétences (indisponible)</Button>
                             </div>
                         </div>
                         <SkillsChart/>

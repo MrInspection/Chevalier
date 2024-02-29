@@ -5,8 +5,7 @@ import {Separator} from "@/components/ui/separator.jsx";
 import SiteHeader from "@/components/site-header.jsx";
 import SiteFooter from "@/components/site-footer.jsx";
 import {Link} from "react-router-dom";
-import {Button} from "@/components/ui/button.jsx";
-import {BookmarkFilledIcon, FileTextIcon, Link1Icon} from "@radix-ui/react-icons";
+// eslint-disable-next-line no-unused-vars
 
 export default function CaseChevalier() {
     return (
@@ -41,7 +40,10 @@ function ArticleSection() {
     return (
         <>
             <div className={"container relative mx-auto max-w-6xl mt-16"}>
-                <img className={"bg-cover bg-center rounded-md"} src={"/banners/purple-inquisitive-banner.png"}/>
+                <img className={"bg-cover bg-center rounded-md"}
+                     src={"/banners/purple-inquisitive-banner.png"}
+                     alt={"ProjectUltron InquisitiveMinds"}
+                />
             </div>
             <div className={"container relative mx-auto max-w-3xl mb-32"}>
                 <div className={"flex-1 mt-12"}>
@@ -122,7 +124,9 @@ function ArticleSection() {
 
                         <p className="leading-7 [&:not(:first-child)]:my-8">
                             <img className={"bg-cover bg-center rounded-md"}
-                                 src={"/images/case-studies/case-chevalier-img1.png"}/>
+                                 src={"/images/case-studies/case-chevalier-img1.png"}
+                                 alt={"Illustration de la logique react en image"}
+                            />
                             <figcaption className={"text-center text-muted-foreground my-1"}>
                                 Illustration de la logique React. Encadré = Composant en jsx
                             </figcaption>
@@ -147,7 +151,9 @@ function ArticleSection() {
                                 <CarouselItem>
                                     <p className="leading-7 [&:not(:first-child)]:mb-4 [&:not(:first-child)]:sm:mb-8">
                                         <img className={"bg-cover bg-center rounded-md"}
-                                             src={"/images/case-studies/case-chevalier-img2.jpg"}/>
+                                             src={"/images/case-studies/case-chevalier-img2.jpg"}
+                                             alt={"ProjectUltron Chevalier"}
+                                        />
                                         <figcaption className={"text-center text-muted-foreground my-1"}>
                                             {/* eslint-disable-next-line react/no-unescaped-entities */}
                                             Brainstorming : Création des composants de la page "À propos"
@@ -157,7 +163,9 @@ function ArticleSection() {
                                 <CarouselItem>
                                     <p className="leading-7 [&:not(:first-child)]:mb-4 [&:not(:first-child)]:sm:mb-8">
                                         <img className={"bg-cover bg-center rounded-md"}
-                                             src={"/images/case-studies/case-chevalier-img3.jpg"}/>
+                                             src={"/images/case-studies/case-chevalier-img3.jpg"}
+                                             alt={"Brainstorming de conception de page"}
+                                        />
                                         <figcaption className={"text-center text-muted-foreground my-1"}>
                                             {/* eslint-disable-next-line react/no-unescaped-entities */}
                                             Brainstorming : Layout de la page "À propos" + Menu de navigation
@@ -167,7 +175,10 @@ function ArticleSection() {
                                 <CarouselItem>
                                     <p className="leading-7 [&:not(:first-child)]:mb-4 [&:not(:first-child)]:sm:mb-8">
                                         <img className={"bg-cover bg-center rounded-md"}
-                                             src={"/images/case-studies/case-chevalier-img4.jpg"}/>
+                                             src={"/images/case-studies/case-chevalier-img4.jpg"}
+                                             alt={"Brainstorming de la page ressources"}
+
+                                        />
                                         <figcaption className={"text-center text-muted-foreground my-1"}>
                                             {/* eslint-disable-next-line react/no-unescaped-entities */}
                                             Brainstorming : Idée de mise en page de la page "Ressources"

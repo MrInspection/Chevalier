@@ -22,7 +22,7 @@ export function PublicationsSection() {
     return (
         <>
             <Table>
-                <TableCaption>ProjectUltron - Bureau de recherches et d{"'"}études statistiques</TableCaption>
+                <TableCaption>ProjectUltron - Système d{"'"}organization Avengard</TableCaption>
                 <TableHeader>
                     <TableRow>
                         <TableHead className="w-[100px]">Identifiant</TableHead>

@@ -1,4 +1,4 @@
-import React from "react";
+"use client"
 
 export function ResearchHero() {
     return (
@@ -7,7 +7,8 @@ export function ResearchHero() {
                 <div className={"container relative mx-auto max-w-6xl mb-10"}>
                     <div className={"py-8"}>
                         <h1 className="scroll-m-20 text-xl font-extrabold tracking-tight text-[#6E445A]">
-                            La recherche est une curiosité formalisée. C{"'"}est le fait de fouiller et d{"'"}enquêter dans un but précis.
+                            La recherche est une curiosité formalisée. C{"'"}est le fait de fouiller et
+                            d{"'"}enquêter dans un but précis.
                         </h1>
                     </div>
                 </div>
@@ -42,9 +43,7 @@ export function ResearchContent() {
                         <img src={"/images/research.png"} alt={"Tech Watch Thumbnail"}
                              className={"rounded-md object-cover max-h-60 w-80"}>
                         </img>
-
                     </div>
-
                 </div>
             </div>
         </>

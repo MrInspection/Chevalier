@@ -77,7 +77,7 @@ function PageContent () {
                             Télécharger la présentation du parcours de certification complémentaire
                         </Button>
                         <div>
-                            <div className={"grid gap-2 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2"}>
+                            <div className={"grid gap-2 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 mt-2"}>
                                 <Button variant={"outline"} className={"w-full"}>
                                     <FileTextIcon className="mr-2 h-4 w-4"/> Consulter mes certificats
                                 </Button>
