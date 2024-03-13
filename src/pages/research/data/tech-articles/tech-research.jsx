@@ -1,4 +1,4 @@
-import {FileTextIcon} from "@radix-ui/react-icons";
+import {ExclamationTriangleIcon, FileTextIcon, RocketIcon} from "@radix-ui/react-icons";
 import {
     Card,
     CardContent,
@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/card"
 import {PublicationsSection} from "@/pages/research/data/tech-articles/publications-section.jsx";
 import {Button} from "@/components/ui/button.jsx";
-
 
 export function TechResearch() {
     return (
@@ -45,10 +44,8 @@ export function TechResearch() {
                                 soulèvent la prolématique suivante :
                             </p>
                             <blockquote className="mt-6 border-l-4 pl-6 italic">
-                                Dans quelle mesure l{"'"}évolution constante des modèles de langage
-                                et les enjeux éthiques découlant des biais de ChatGPT participent-ils
-                                activement à la redéfinition du panorama de l{"'"}intelligence
-                                artificielle ?
+                                Comment l{"'"}évolution des modèles de langage, les enjeux éthiques et/ou les
+                                biais de ChatGPT contribuent-ils à redéfinir l{"'"}intelligence artificielle ?
                             </blockquote>
                         </div>
                         <div className={"mb-14"}>
