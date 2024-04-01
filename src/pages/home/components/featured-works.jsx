@@ -7,11 +7,12 @@ export function FeaturedWorks() {
     return (
         <>
             <div className={"container relative mx-auto max-w-6xl pt-4"}>
+
                     <div className={"flex flex-col justify-center items-center w-full h-full sm:py-10 text-center"}>
                         <section className="max-w-[980px] flex-col items-center
                          justify-items-center gap-6  pb-6 pt-2 my-10 md:my-4">
                             <div className="flex flex-col items-center justify-items-center gap-2">
-                                <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl mb-2">
+                                <h1 className="text-3xl font-extrabold leading-tight tracking-tighter lg:text-4xl mb-2">
                                     Mes différents projets<br className="hidden sm:inline"/>
                                 </h1>
                                 <p className="max-w-3xl text-lg text-muted-foreground">
@@ -38,7 +39,7 @@ export function FeaturedWorks() {
                             <CardHeader>
                                 <div className={"lg:flex items-center justify-between space-x-5 md:px-8 sm:px-4"}>
                                     <div className={"sm:my-8"}>
-                                        <Badge>Recherche, Veille Technologique</Badge>
+                                        <Badge>Veille Technologique</Badge>
                                         <h1 className="scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl mt-2">
                                             ChatGPT : PLONGÉE AU CŒUR DE <br className="hidden sm:inline"/>L{"'"}IA,
                                             ENTRE SECRETS ET DÉFIS
@@ -51,7 +52,7 @@ export function FeaturedWorks() {
                                             className="hidden sm:inline"/> majeurs.
                                         </p>
                                     </div>
-                                    <img src={"/thumbnails/chatgpt.png"} alt={"Logo ChatGPT"}
+                                    <img src={"/images/inquisitive-avatar-light.png"} alt={"Logo ChatGPT"}
                                          className={"rounded-md object-cover max-h-72 w-56 sm:w-auto"}>
                                     </img>
                                 </div>

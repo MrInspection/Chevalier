@@ -21,7 +21,7 @@ function AboutMe() {
                     <div className="md:flex items-center justify-between space-x-4">
                         <div className="md:flex items-center space-x-8">
                             <Avatar className={"size-72"}>
-                                <AvatarImage src="/images/inquisitive-avatar-dark.png"/>
+                                <AvatarImage src="/images/inquisitive-avatar-light.png"/>
                                 <AvatarFallback className={"text-6xl"}>MAH</AvatarFallback>
                             </Avatar>
                             <div className={"md:flex-1"}>
