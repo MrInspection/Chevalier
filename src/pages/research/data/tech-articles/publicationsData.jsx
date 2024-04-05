@@ -91,5 +91,22 @@ export const publications = [
         download: <EyeOpenIcon />,
         file: "/documents/tech/gpt-edition-10.pdf",
     },
-
+    {
+        id: "MAR-02",
+        title: "Exploration de l'IA à travers ChatGPT : Entre Secrets et Défis Éthiques",
+        edition: "Édition #11",
+        month: "Mars 2024",
+        status: "Disponible",
+        download: <EyeOpenIcon />,
+        file: "/documents/tech/gpt-edition-11.pdf",
+    },
+    {
+        id: "MAR-03",
+        title: "Exploration de l'IA à travers ChatGPT : Entre Secrets et Défis Éthiques",
+        edition: "Édition #12",
+        month: "Mars 2024",
+        status: "Disponible",
+        download: <EyeOpenIcon />,
+        file: "/documents/tech/gpt-edition-12.pdf",
+    },
 ];
