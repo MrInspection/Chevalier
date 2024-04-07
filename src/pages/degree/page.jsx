@@ -1,10 +1,12 @@
 import SiteHeader from "@/components/site-header.jsx";
 import SiteFooter from "@/components/site-footer.jsx";
 import {Separator} from "@/components/ui/separator.jsx";
+import {Broadcast} from "@/components/broadcast.jsx";
 
 export default function DegreePage() {
     return (
         <>
+            <Broadcast />
             <SiteHeader />
             <PageArticle />
             <SiteFooter />
@@ -30,7 +32,7 @@ function PageArticle() {
                             <div className={"text-sm font-semibold"}>Publié le 24 Février 2024</div>
                         </div>
 
-                        <p className="leading-7 [&:not(:first-child)]:mt-6">
+                        <p className="mt-6">
                             Le Brevet de <strong>Technicien Supérieur aux Services Informatiques aux
                             Organisations</strong> (BTS SIO) offre une opportunité unique de se former
                             en <strong>deux ans</strong> dans les domaines essentiels de l{"'"}informatique.

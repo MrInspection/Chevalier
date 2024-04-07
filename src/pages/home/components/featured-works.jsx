@@ -8,30 +8,30 @@ export function FeaturedWorks() {
         <>
             <div className={"container relative mx-auto max-w-6xl pt-4"}>
 
-                    <div className={"flex flex-col justify-center items-center w-full h-full sm:py-10 text-center"}>
-                        <section className="max-w-[980px] flex-col items-center
+                <div className={"flex flex-col justify-center items-center w-full h-full sm:py-10 text-center"}>
+                    <section className="max-w-[980px] flex-col items-center
                          justify-items-center gap-6  pb-6 pt-2 my-10 md:my-4">
-                            <div className="flex flex-col items-center justify-items-center gap-2">
-                                <h1 className="text-3xl font-extrabold leading-tight tracking-tighter lg:text-4xl mb-2">
-                                    Mes différents projets<br className="hidden sm:inline"/>
-                                </h1>
-                                <p className="max-w-3xl text-lg text-muted-foreground">
-                                    Les projets sont la pierre angulaire de tout développeur pour mettre en
-                                    pratique et montrer ce qu{"'"}il a appris et ce qu{"'"}il sait faire. Vous
-                                    trouverez ci-dessous quelques-uns de mes travaux dans différentes langues
-                                    de programmation ainsi que ma veille technologique actuelle.
-                                </p>
-                                <p className={"flex space-x-2 py-2 mb-8 sm:mb-2 md:mb-2 lg:mb-0"}>
-                                    <Link to={"/projects"}>
-                                        <Button variant={"outline"}>Mes projets</Button>
-                                    </Link>
-                                    <Link to={"/research"}>
-                                        <Button variant={"outline"}>Mes recherches</Button>
-                                    </Link>
-                                </p>
-                            </div>
-                        </section>
-                    </div>
+                        <div className="flex flex-col items-center justify-items-center gap-2">
+                            <h1 className="text-3xl font-extrabold leading-tight tracking-tighter lg:text-4xl mb-2">
+                                Mes différents projets<br className="hidden sm:inline"/>
+                            </h1>
+                            <p className="max-w-3xl text-lg text-muted-foreground">
+                                Les projets sont la pierre angulaire de tout développeur pour mettre en
+                                pratique et montrer ce qu{"'"}il a appris et ce qu{"'"}il sait faire. Vous
+                                trouverez ci-dessous quelques-uns de mes travaux dans différentes langues
+                                de programmation ainsi que ma veille technologique actuelle.
+                            </p>
+                            <p className={"flex space-x-2 py-2 mb-8 sm:mb-2 md:mb-2 lg:mb-0"}>
+                                <Link to={"/projects"}>
+                                    <Button variant={"outline"}>Mes projets</Button>
+                                </Link>
+                                <Link to={"/research"}>
+                                    <Button variant={"outline"}>Mes recherches</Button>
+                                </Link>
+                            </p>
+                        </div>
+                    </section>
+                </div>
 
                 <div className={"flex-1 pb-5 -mt-8"}>
                     <Link to={"/research"}>
@@ -60,12 +60,21 @@ export function FeaturedWorks() {
                         </Card>
                     </Link>
 
+                    <div className={"mt-5"}>
+                        <iframe
+                            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7182665101991137280"
+                            height="1365" width="1090" frameBorder="0" allowFullScreen=""
+                            title="Embedded post">
+                        </iframe>
+                    </div>
+
                     <div className={"my-4 grid gap-4 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3"}>
 
                         <Link to={"/research/chevalier"}>
                             <Card>
                                 <CardHeader className={"my-0"}>
-                                    <img src={"/thumbnails/case-studies/case-studies-thumbnail.png"} alt={"Portfolio Thumbnail Project"}
+                                    <img src={"/thumbnails/case-studies/case-studies-thumbnail.png"}
+                                         alt={"Portfolio Thumbnail Project"}
                                          className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                     </img>
                                 </CardHeader>
@@ -84,7 +93,8 @@ export function FeaturedWorks() {
                         <Link to={"/projects/calculator"}>
                             <Card>
                                 <CardHeader className={"my-0"}>
-                                    <img src={"/thumbnails/projects/project-calculator.png"} alt={"Calculator Thumbnail Project"}
+                                    <img src={"/thumbnails/projects/project-calculator.png"}
+                                         alt={"Calculator Thumbnail Project"}
                                          className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                     </img>
                                 </CardHeader>
@@ -103,7 +113,8 @@ export function FeaturedWorks() {
                         <Link to={"/projects/tetris"}>
                             <Card>
                                 <CardHeader className={"my-0"}>
-                                    <img src={"/thumbnails/projects/project-tetris.png"} alt={"Tetris Thumbnail Project"}
+                                    <img src={"/thumbnails/projects/project-tetris.png"}
+                                         alt={"Tetris Thumbnail Project"}
                                          className={"rounded-md object-cover aspect-video h-52  w-full "}>
                                     </img>
                                 </CardHeader>

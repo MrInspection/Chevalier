@@ -9,6 +9,7 @@ import {Broadcast} from "@/components/broadcast.jsx";
 export default function AboutPage() {
     return (
         <>
+            <Broadcast />
             <SiteHeader />
             <AboutMe />
             <PersonalStats />

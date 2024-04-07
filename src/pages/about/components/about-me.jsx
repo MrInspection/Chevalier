@@ -47,7 +47,7 @@ function AboutMe() {
 
                                 <div className={"flex space-x-2 py-5"}>
                                     <a
-                                        href={"/documents/curriculum-vitae.pdf"}
+                                        href={"/documents/cv.pdf"}
                                         target={"_blank"}
                                         rel="noreferrer noopener"
                                     >

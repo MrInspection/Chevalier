@@ -62,11 +62,10 @@ function ProjectArticleSection() {
                             </Button>
                         </a>
 
-                        <Separator />
-
+                        <Separator/>
                         <div className={"my-12 container max-w-2xl"}>
                             <Link to={"/research/chevalier"}>
-                                <Card>
+                            <Card>
                                     <CardHeader className={"my-0"}>
                                         <img src={"/thumbnails/case-studies/case-studies-thumbnail.png"}
                                              alt={"Portfolio Thumbnail Project"}

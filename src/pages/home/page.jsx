@@ -8,8 +8,8 @@ import {Broadcast} from "@/components/broadcast.jsx";
 export default function HomePage() {
     return (
         <>
-            <SiteHeader />
             <Broadcast />
+            <SiteHeader />
             <IntroSection />
             <PersonalStats />
             <FeaturedWorks />

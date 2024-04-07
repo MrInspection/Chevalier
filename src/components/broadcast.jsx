@@ -1,4 +1,5 @@
-import {InfoCircledIcon} from "@radix-ui/react-icons";
+import {InfoCircledIcon, Link1Icon, Link2Icon, LinkedInLogoIcon, NotionLogoIcon} from "@radix-ui/react-icons";
+import {Button} from "@/components/ui/button.jsx";
 
 export function Broadcast() {
     return (
@@ -8,8 +9,13 @@ export function Broadcast() {
                     <div className={"container relative h-32 md:h-20 lg:h-11 flex items-center justify-center"}>
                         <div
                             className={"inline-flex gap-1 items-center px-3 py-1 text-sm font-bold justify-items-center text-[#2F4077]"}>
-                            <InfoCircledIcon className={"invisible lg:visible"}/>
-                            Pour la prochaine mise à jour majeure de ce site web, nous mettrons à jour l'ensemble du framework de Vite & React vers Next.js.
+                            <LinkedInLogoIcon className={"invisible lg:visible"}/>
+                            La nouvelle version du portfolio est en cours de développement. Consulter le <a
+                            className={"underline"}
+                            href={"https://www.linkedin.com/posts/moussa-abdallah-houmadi_%E3%85%A4-ravi-de-partager-mon-progr%C3%A8s-avec-vous-activity-7182665154319261696-7ui5?utm_source=share&utm_medium=member_desktop"}
+                            target={"_blank"}
+                            rel="noreferrer noopener">Post LinkedIn</a> pour voir la démonstration de ProjectUltron
+                            Argumentum
                         </div>
                     </div>
                 </div>
