@@ -4,14 +4,12 @@ import {
     TableBody,
     TableCaption,
     TableCell,
-    TableFooter,
     TableHead,
     TableHeader,
     TableRow,
 } from "@/components/ui/table.jsx";
 import {FileTextIcon} from "@radix-ui/react-icons";
 import {publications} from "@/pages/research/data/tech-articles/publicationsData.jsx";
-import {Card, CardHeader} from "@/components/ui/card.jsx";
 
 
 export function PublicationsSection() {

@@ -1,4 +1,4 @@
-import {EyeNoneIcon, EyeOpenIcon} from "@radix-ui/react-icons";
+import {EyeOpenIcon} from "@radix-ui/react-icons";
 
 export const publications = [
     {

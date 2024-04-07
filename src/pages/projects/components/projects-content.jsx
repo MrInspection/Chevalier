@@ -1,4 +1,3 @@
-import {ProjectsCategories} from "@/pages/projects/components/projects-categories.jsx";
 import React from "react";
 import {Separator} from "@/components/ui/separator.jsx";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion.jsx";

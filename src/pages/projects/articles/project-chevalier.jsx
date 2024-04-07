@@ -1,10 +1,9 @@
 import SiteHeader from "@/components/site-header.jsx";
 import SiteFooter from "@/components/site-footer.jsx";
 import {Separator} from "@/components/ui/separator.jsx";
-import {Broadcast} from "@/components/broadcast.jsx";
 import {Button} from "@/components/ui/button.jsx";
-import {EnvelopeOpenIcon, GitHubLogoIcon} from "@radix-ui/react-icons";
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card.jsx";
+import {GitHubLogoIcon} from "@radix-ui/react-icons";
+import {Card, CardContent, CardDescription, CardHeader} from "@/components/ui/card.jsx";
 import {Badge} from "@/components/ui/badge.jsx";
 import {Link} from "react-router-dom";
 

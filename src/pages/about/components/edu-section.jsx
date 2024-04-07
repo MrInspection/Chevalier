@@ -1,7 +1,6 @@
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion.jsx";
 import {Separator} from "@/components/ui/separator.jsx";
 import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card.jsx";
-import {statsConfig} from "@/config/statsConfig.js";
 
 export function EduSection() {
     return (

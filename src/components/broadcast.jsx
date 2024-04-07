@@ -16,8 +16,7 @@ export function Broadcast() {
 
                                 <LinkedInLogoIcon className={"invisible lg:visible"}/>
                                 La nouvelle version du portfolio est en cours de développement. Consulter le post
-                                LinkedIn
-                                Post LinkedIn pour voir la démonstration de ProjectUltron
+                                LinkedIn pour voir la démonstration de ProjectUltron
                                 Argumentum
                             </div>
                         </div>

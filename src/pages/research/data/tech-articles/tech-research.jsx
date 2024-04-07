@@ -1,11 +1,9 @@
-import {ExclamationTriangleIcon, FileTextIcon, RocketIcon} from "@radix-ui/react-icons";
+import {FileTextIcon} from "@radix-ui/react-icons";
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
-    CardTitle,
 } from "@/components/ui/card"
 import {PublicationsSection} from "@/pages/research/data/tech-articles/publications-section.jsx";
 import {Button} from "@/components/ui/button.jsx";

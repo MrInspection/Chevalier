@@ -1,5 +1,5 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import {EmptyStatistics, EmptyStudies, EmptyTechWatch} from "@/pages/research/components/empty-database.jsx";
+import {EmptyStatistics} from "@/pages/research/components/empty-database.jsx";
 import {TechResearch} from "@/pages/research/data/tech-articles/tech-research.jsx";
 import {StudiesResearch} from "@/pages/research/data/cases-studies/cases-research.jsx";
 

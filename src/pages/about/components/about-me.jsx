@@ -1,10 +1,9 @@
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar.jsx";
 import {Button} from "@/components/ui/button.jsx";
-import {CopyIcon, EnvelopeOpenIcon, FileTextIcon, PersonIcon} from "@radix-ui/react-icons";
+import { EnvelopeOpenIcon, FileTextIcon, PersonIcon} from "@radix-ui/react-icons";
 import {Tooltip, TooltipContent, TooltipProvider, TooltipTrigger} from "@/components/ui/tooltip.jsx";
 import {
     Dialog,
-    DialogClose,
     DialogContent, DialogDescription,
     DialogFooter,
     DialogHeader, DialogTitle,
