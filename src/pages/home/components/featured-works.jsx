@@ -60,14 +60,6 @@ export function FeaturedWorks() {
                         </Card>
                     </Link>
 
-                    <div className={"mt-5"}>
-                        <iframe
-                            src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7182665101991137280"
-                            height="1365" width="1090" frameBorder="0" allowFullScreen=""
-                            title="Embedded post">
-                        </iframe>
-                    </div>
-
                     <div className={"my-4 grid gap-4 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3"}>
 
                         <Link to={"/research/chevalier"}>
