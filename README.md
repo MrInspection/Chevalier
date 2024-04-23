@@ -1,12 +1,12 @@
-# ProjectUltron Chevālier
+# ProjectUltron Chevalier (Deprecated)
 
-Ce projet a été développé en utilisant React avec Vite, accompagné d'une bibliothèque de composants, d'une bibliothèque de graphiques et de TailwindCSS. Il s'agit d'un portfolio personnel conçu pour présenter mes compétences et mon savoir-faire en tant que développeur.
+Le projet Chevalier est désormais obsolète, son successeur, Argumentum a pris la relève.
 
-
-|               |   |  |   |   |
-|---------------|---|--|---|---|
-|               |   |  |   |   |
-|               |   |  |   |   |
-|               |   |  |   |   |
+### Used Development Stack
+- Vite (Framework)
+- React
+- TailwindCSS
+- Shadcn UI
+- Recharts
 
 *Built by MrInspection, check out the case study to learn more about this project.*
